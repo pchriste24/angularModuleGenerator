@@ -1,0 +1,5 @@
+<app-search [gridValue]="<%= name.toLowerCase() %>s" [columnSettings]="<%= name.toLowerCase() %>Service.columnSettings" [gridSettings]="<%= name.toLowerCase() %>Service.gridSettings"
+                [gridTotalRecords]="totalRecords" [searchSettings]="<%= name.toLowerCase() %>Service.searchSettings" (search)="get<%= name %>s($event)">
+                <app-text-filter label="<%= name %> Name" name="<%= name.toLowerCase() %>Name"></app-text-filter>
+                
+</app-search>

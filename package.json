@@ -1,0 +1,28 @@
+{
+  "name": "generator-angular-module-generator",
+  "version": "0.0.0",
+  "description": "Creates the director and all files needed for a new angular module along with search and edit components.",
+  "homepage": "",
+  "author": {
+    "name": "Phil Christensen",
+    "email": "pchriste24@gmail.com",
+    "url": ""
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
